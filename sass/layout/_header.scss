@@ -1,0 +1,12 @@
+.header {
+    border-bottom: 1px solid $color-grey-dark;
+    box-shadow: 0px 3px 3px 0px $color-grey-dark;
+    height: 15rem;
+
+    &__welcome{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+
+}

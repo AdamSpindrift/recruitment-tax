@@ -1,0 +1,16 @@
+{
+  "name": "recruitment-tax",
+  "version": "1.0.0",
+  "description": "recruitment tax",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w",
+    "minify:sass": "node-sass sass/main.scss css/styles.css --output-style compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

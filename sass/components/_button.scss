@@ -1,0 +1,61 @@
+.main-button {
+    appearance: none;
+    outline: 0;
+    background-color: transparent;
+    border: 1px solid $color-grey-dark;
+    box-shadow: $shadow-2;
+    padding: 1rem 1.5rem;
+    margin: 20px;
+    margin-bottom: 1rem;
+    color: $color-white-1;
+    height: 4.5rem;
+    width: 15rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+
+    &__justify {
+      text-align: justify;
+    }
+        
+
+    &:hover {
+      color: $color-black-1;
+      background-color: $color-white-1;
+    }
+
+    &:focus {
+      outline: none;
+      background-color: $color-grey-light;
+    }
+
+    &--float-left {
+      float: left;
+    }
+
+    &--large {
+      width: 25rem;
+    }
+
+    &--large-2 {
+      width: 40rem;
+    }
+
+    &__blue {
+
+      &:hover {
+        color: $color-primary;
+        background-color: $color-grey-dark;
+      }
+    }
+  }
+
+  .button-top-left {
+    position: absolute;
+    top: 18rem;
+    left: 0.5rem;
+  }
+
+  
+  

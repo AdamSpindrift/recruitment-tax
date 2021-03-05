@@ -1,0 +1,54 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.big-heading {
+  color: $color-djca-pink;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+.footer {
+  
+
+  &-copyright {
+     font-size: 3rem;
+     font-weight: 400;
+  }
+}
+
+.home {
+ 
+
+  &__cta {
+
+    &-button {
+      font-family: 'Inter', sans-serif;
+      font-size: 2rem;
+      font-weight: 200;
+    }
+  }
+}

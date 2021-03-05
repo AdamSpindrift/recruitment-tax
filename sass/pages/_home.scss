@@ -1,0 +1,54 @@
+.home {
+    text-align: center;
+    height: 150vh;
+
+    &__image1 {
+        height: 80rem;
+        margin: 5rem;
+    }
+
+    &__image2 {
+        height: 60rem;
+        margin-top: 25rem;
+    }
+
+    &__cta {
+        margin-top: 35rem;
+
+        &-button {
+            background-color: $color-djca-blue;
+            border: 3px solid $color-white-1;
+            color: $color-white-1;
+            padding: 2rem 5rem;
+            border-radius: 2rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+
+            &:hover {
+                color: $color-djca-blue;
+                background-color: $color-djca-pink;
+                border: 3px solid $color-djca-blue;
+                font-weight: 800;
+              }
+          
+              &:focus {
+                outline: none;
+                background-color: $color-grey-light;
+                color: $color-djca-blue;
+                transform: scale(0.9) translate(1rem, 0.5rem);
+              }
+        }
+        
+    }
+    
+}
+
+.blue-band {
+    background-color: $color-djca-blue;
+    width: 100vw;
+    height: 80rem;
+    position: absolute;
+    z-index: -1;
+    top: 30rem;
+    left: 0;
+}
